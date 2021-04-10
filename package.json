@@ -1,0 +1,27 @@
+{
+  "name": "tsblockchain",
+  "version": "1.0.0",
+  "description": "Learning Typescript by making a Blockchain with it",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc-watch --onSuccess \" node dist/index.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leo-ground/tsblockchain.git"
+  },
+  "author": "leo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Leo-ground/tsblockchain/issues"
+  },
+  "homepage": "https://github.com/Leo-ground/tsblockchain#readme",
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "tsc-watch": "^4.2.9"
+  }
+}
